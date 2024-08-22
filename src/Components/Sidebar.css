@@ -1,0 +1,101 @@
+
+#sidebar {
+    width: 200px;
+    background: #2e2e2e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto; /* Adjust height as needed */
+    padding: 20px 10px;
+   
+  } 
+  
+  .sidebar-top {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .user-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+   
+  }
+  
+  .user-circle img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .user-name {
+    font-size: 16px;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .sidebar-nav {
+    top : 200px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 200px;
+    
+  }
+  
+  .sidebar-nav ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .sidebar-nav li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-nav li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  
+  .sidebar-nav li a:hover {
+    background-color: #615e5e;
+  }
+  
+  .sidebar-bottom {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .logout-button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logout-button:hover {
+    text-decoration: underline;
+  }
+  
+  .logout-icon {
+    margin-right: 5px;
+    font-size: 18px;
+  }
+  
+  
+  
+  
+  
+  
+  
